@@ -1,0 +1,16 @@
+step 1: start
+step 2:read n from user
+step 3:store a=0 and b=1
+step 4:if n=0 then return a
+step 5:if n=1 then return b
+step 6:else 
+	loop for n times
+		c=a+b
+		a=b
+		b=c
+	return b
+	
+
+
+space complexity :O(1)
+Time complexity :O(n)
